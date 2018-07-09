@@ -1,6 +1,6 @@
 {
   "name": "@wyze/favicons-webpack-plugin",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Let webpack generate all your favicons and icons for you",
   "main": "index.js",
   "files": [
