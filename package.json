@@ -1,5 +1,5 @@
 {
-  "name": "favicons-webpack-plugin",
+  "name": "@wyze/favicons-webpack-plugin",
   "version": "0.0.9",
   "description": "Let webpack generate all your favicons and icons for you",
   "main": "index.js",
@@ -9,9 +9,7 @@
   ],
   "scripts": {
     "lint": "semistandard",
-    "prepublish": "npm run test",
-    "posttest": "npm run lint",
-    "test": "ava"
+    "test": "echo ''"
   },
   "repository": {
     "type": "git",
@@ -33,6 +31,9 @@
     "parser": "babel-eslint"
   },
   "homepage": "https://github.com/jantimon/favicons-webpack-plugin",
+  "publishConfig": {
+    "access": "public"
+  },
   "devDependencies": {
     "ava": "^0.16.0",
     "babel-eslint": "^7.1.0",
